@@ -1,4 +1,4 @@
-What is Microsoft Azure?
+# What is Microsoft Azure?
 Microsoft Azure is Microsoft’s cloud computing platform offering Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). It provides tools to build, deploy, and manage applications and services through Microsoft-managed data centers worldwide.
 
 ### 1. Compute
