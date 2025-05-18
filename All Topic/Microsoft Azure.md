@@ -82,4 +82,16 @@ Azure Database for MySQL/PostgreSQL
 | **Azure Resource Manager (ARM)** | Deploy and manage templates                         |
 | **Azure Mobile App**             | Monitor and manage on the go                        |
 | **Cloud Shell**                  | Browser-based shell with CLI and PowerShell support |
+
+
+✅ Typical Admin Tasks in Azure
+| Task                       | Description                                     |
+| -------------------------- | ----------------------------------------------- |
+| Create & manage VMs        | Deploy, size, update, and secure servers        |
+| Manage storage             | Backup, blob storage, file shares               |
+| Configure virtual networks | Subnets, DNS, firewalls                         |
+| Implement security         | RBAC, NSGs, Defender, Key Vault                 |
+| Monitor performance        | Logs, alerts, recommendations                   |
+| Automate tasks             | Scripting with PowerShell/CLI, Azure Automation |
+
  
