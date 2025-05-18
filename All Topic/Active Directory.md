@@ -3,7 +3,7 @@
 Microsoft Active Directory (AD) is a directory service developed by Microsoft that is used for managing users, computers, and other resources on a network.
 It acts like a centralized database where you can manage identities, permissions, and security settings across your organization.
 
-🧩 Key Concepts in Active Directory
+### 🧩 Key Concepts in Active Directory
 1. 🏢 Domain
 A domain is the core unit of AD—it groups objects like users, computers, and printers under a common security boundary.
 
@@ -40,7 +40,7 @@ Determining what that user can access.
 
 Managed through permissions and Group Policy Objects (GPOs).
 
-🧠 Core Components of AD Domain Services (AD DS)
+### 🧠 Core Components of AD Domain Services (AD DS)
 | Component                  | Description                                                                 |
 | -------------------------- | --------------------------------------------------------------------------- |
 | **Domain Controller (DC)** | Server that runs AD DS and handles authentication and directory services    |
@@ -60,7 +60,9 @@ Managed through permissions and Group Policy Objects (GPOs).
 | Delegate permissions           | Use OUs and GPO delegation                          |
 | Join computers to domain       | Via system properties or script (PowerShell)        |
 
-💻 Important Tools & Commands
+
+
+### 💻 Important Tools & Commands
 dsa.msc – Open ADUC (Active Directory Users & Computers)
 
 gpmc.msc – Open Group Policy Management Console
