@@ -3,6 +3,32 @@
 Microsoft Active Directory (AD) is a directory service developed by Microsoft that is used for managing users, computers, and other resources on a network.
 It acts like a centralized database where you can manage identities, permissions, and security settings across your organization.
 
+## what information is store on active directory?
+🔐 User and Security Information
+  - User accounts: Username, password hashes, group memberships, login scripts, home directories, etc.
+  - Permissions and access control: Who can access what and at what level (through Access Control Lists).
+💻 Computer and Device Information
+  - Computer accounts: Info about machines joined to the domain.
+  - Operating system details: OS version, service pack, etc.
+  - Group Policy Objects (GPOs): Policies applied to computers or users (e.g., password rules, software deployment, etc.).
+🌐 Network and Domain Services
+  - Domains, Trees, and Forests: AD structures that define boundaries of administrative control and replication.
+  - DNS information: Integration with DNS for locating services (e.g., domain controllers).
+  - Sites and Subnets: Info used for optimizing replication and login traffic.
+### Active Directory (AD) has a hierarchical structure that organizes and manages network resources efficiently. Here’s an overview of the main components of the Active Directory structure, from top to bottom:
+![enter image description here](https://i.ibb.co/xS1y398B/2025-05-19-210629.png)
+
+## Common task Active Directory 
+- Create user accounts
+- Reset passwords
+- Unlock user accounts
+- Disable or delete accounts
+- Move users between Organizational Units (OUs)
+- Update user attributes (e.g., job title, department, email)
+
+
+
+
 ### 🧩 Key Concepts in Active Directory
 1. 🏢 Domain
 A domain is the core unit of AD—it groups objects like users, computers, and printers under a common security boundary.
