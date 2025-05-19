@@ -27,44 +27,64 @@ It acts like a centralized database where you can manage identities, permissions
 - Update user attributes (e.g., job title, department, email)
 
 
+## Important Topics Active Directory
+1. 🧱 Active Directory Domain Services (AD DS)
+Central service that handles authentication, directory storage, and access control.
+
+Understand users, groups, OUs, domains, and trusts.
+
+2. 🔐 User and Group Management
+Creating, modifying, and deleting user and group accounts.
+
+Understanding security vs. distribution groups.
+
+Group nesting and permission inheritance.
+
+3. 🖥️ Organizational Units (OUs) and Delegation
+Structuring AD using OUs for administrative and policy purposes.
+
+Delegating permissions using the Delegation of Control Wizard.
+
+4. 🎯 Group Policy Objects (GPOs)
+Creating and linking GPOs to enforce security, desktop, and software policies.
+
+Group Policy inheritance, precedence, loopback, and troubleshooting.
+
+5. 💻 Domain Controllers (DCs)
+Role and function of DCs in authentication and replication.
+
+Understanding FSMO roles, Read-Only Domain Controllers (RODCs), and Global Catalogs.
+
+6. 🌐 Trusts and Forests
+How domains trust each other in a multi-domain or multi-forest environment.
+
+Types of trusts: transitive, non-transitive, one-way, two-way.
+
+7. 🔄 Replication and Sites/Subnets
+How AD replicates data across domain controllers.
+
+Using Sites and Services to control replication traffic and authentication based on location.
+
+8. 🧬 Schema and Global Catalog
+AD schema defines object classes and attributes.
+
+The Global Catalog enables forest-wide searches and authentication for universal groups.
+
+9. 🧰 Backup, Recovery, and AD Maintenance
+Backing up AD using Windows Server Backup.
+
+Using Authoritative vs. Non-authoritative Restore.
+
+Tools like ntdsutil, wbadmin.
+
+10. ⚙️ PowerShell and Automation
+Managing AD using PowerShell cmdlets (e.g., Get-ADUser, New-ADGroup, etc.).
+
+Writing scripts to automate account creation, cleanup, reports, etc.
 
 
-### 🧩 Key Concepts in Active Directory
-1. 🏢 Domain
-A domain is the core unit of AD—it groups objects like users, computers, and printers under a common security boundary.
 
-Example: company.local or example.com
 
-2. 🌍 Forest
-A forest is the top-level container in AD that can contain multiple domains.
-
-All domains in a forest trust each other and share a common schema and global catalog.
-
-3. 🌲 Tree
-A tree is a group of domains that share a contiguous namespace.
-
-For example: hr.company.com, sales.company.com are part of the same tree under company.com.
-
-4. 📁 Organizational Units (OUs)
-Sub-containers inside domains used to organize and manage resources.
-
-You apply Group Policies and permissions at the OU level.
-
-5. 👤 Objects
-Everything in AD is an object—users, groups, computers, printers, etc.
-
-Each object has attributes (e.g., a user has name, email, group memberships).
-
-🔐 Authentication & Authorization
-✅ Authentication
-Verifying who a user is (e.g., username/password).
-
-Uses protocols like Kerberos or NTLM.
-
-✅ Authorization
-Determining what that user can access.
-
-Managed through permissions and Group Policy Objects (GPOs).
 
 ### 🧠 Core Components of AD Domain Services (AD DS)
 | Component                  | Description                                                                 |
