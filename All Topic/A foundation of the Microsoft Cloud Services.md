@@ -12,6 +12,48 @@ PaaS (Platform as a Service): Web Apps, Azure SQL, AI Services.
 
 SaaS (Software as a Service): Integrated Microsoft tools (e.g., Power BI, Microsoft Defender).
 
+### Details:
+## IaaS Services
+| **Service**                       | **Description**                                                                                    |
+| --------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Azure Virtual Machines (VMs)**  | Run Windows or Linux virtual machines on demand.                                                   |
+| **Azure Virtual Network (VNet)**  | Enables secure communication between Azure resources and on-premises networks.                     |
+| **Azure Load Balancer**           | Distributes traffic across multiple VMs for high availability.                                     |
+| **Azure VPN Gateway**             | Connects on-premises networks to Azure through secure VPN tunnels.                                 |
+| **Azure ExpressRoute**            | Private, high-speed connection between your data center and Azure (not over the public internet).  |
+| **Azure Blob Storage**            | Scalable object storage for unstructured data like documents, images, and backups.                 |
+| **Azure Disk Storage**            | Persistent storage for Azure VMs (HDD/SSD options).                                                |
+| **Azure Bastion**                 | Secure and seamless RDP/SSH connectivity to your VMs without exposing them to the public internet. |
+| **Azure DNS**                     | Host your domain name system records in Azure.                                                     |
+| **Azure Backup**                  | Cloud-based backup solution for Azure VMs and on-premises data.                                    |
+| **Azure Site Recovery**           | Disaster recovery as a service — replicates and recovers workloads during outages.                 |
+| **Azure Monitor & Log Analytics** | Tools to monitor infrastructure health and performance.                                            |
+
+## SaaS Services
+| **SaaS Service**                      | **Description**                                                                                                                   |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Microsoft 365**                     | Cloud-based suite that includes Office apps (Word, Excel, PowerPoint), Teams, OneDrive, Outlook, SharePoint, and Exchange Online. |
+| **Dynamics 365**                      | A suite of intelligent business applications for CRM (Customer Relationship Management) and ERP (Enterprise Resource Planning).   |
+| **Microsoft Teams**                   | A collaboration platform that includes chat, video conferencing, file sharing, and integration with Microsoft 365.                |
+| **Outlook.com**                       | A web-based personal email service with calendar and contact management.                                                          |
+| **OneDrive**                          | Cloud storage service for storing, syncing, and sharing files securely.                                                           |
+| **Power BI (Pro & Premium)**          | Business analytics service that provides interactive visualizations and business intelligence capabilities.                       |
+| **Microsoft Defender for Office 365** | A security SaaS that protects Microsoft 365 apps from threats like phishing and malware.                                          |
+
+## PaaS services
+| **Azure PaaS Service**             | **Description**                                                                                    |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Azure App Service**              | Host web apps, REST APIs, and mobile backends using .NET, Java, Node.js, Python, etc.              |
+| **Azure SQL Database**             | Managed relational database with built-in high availability, backups, and scaling.                 |
+| **Azure Functions**                | Serverless computing to run code in response to events — you only pay for the time your code runs. |
+| **Azure Logic Apps**               | Automate workflows and integrate apps, data, and services without writing code.                    |
+| **Azure Kubernetes Service (AKS)** | Managed Kubernetes platform to deploy and scale containerized apps.                                |
+| **Azure Web Apps for Containers**  | Deploy container-based web apps using Docker and custom images.                                    |
+| **Azure API Management**           | Publish, secure, monitor, and manage APIs at scale.                                                |
+| **Azure App Configuration**        | Centralized management of application settings and feature flags.                                  |
+| **Azure DevOps Services**          | Tools for CI/CD pipelines, version control, project tracking, and testing.                         |
+| **Azure Machine Learning**         | PaaS for building, training, and deploying machine learning models.                                |
+
 ## Core Capabilities:
 Compute (VMs, Containers, Azure Functions)
 
