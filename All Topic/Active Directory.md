@@ -3,6 +3,8 @@
 Microsoft Active Directory (AD) is a directory service developed by Microsoft that is used for managing users, computers, and other resources on a network.
 It acts like a centralized database where you can manage identities, permissions, and security settings across your organization.
 
+![enter image description here](https://i.ibb.co.com/d4JxXkX3/2025-12-06-155150.png)
+
 ## what information is store on active directory?
 🔐 User and Security Information
   - User accounts: Username, password hashes, group memberships, login scripts, home directories, etc.
