@@ -6,24 +6,24 @@ MDT is a free Microsoft tool used by IT admins to deploy Windows operating syste
 
 ✅ What MDT is used for
 
-Deploy Windows 10 / Windows 11
+- Deploy Windows 10 / Windows 11
 
-Automate OS installation (no manual setup)
+- Automate OS installation (no manual setup)
 
-Install drivers, applications, updates
+- Install drivers, applications, updates
 
-Join PCs to Active Directory
+- Join PCs to Active Directory
 
-Apply basic configurations
+- Apply basic configurations
 
 🛠 How MDT works (simple)
 
-Import Windows image
+1. Import Windows image
 
-Create Task Sequences
+2. Create Task Sequences
 
-Add apps & drivers
+3. Add apps & drivers
 
-Boot PC via PXE or USB
+4. Boot PC via PXE or USB
 
-Windows installs automatically
+5. Windows installs automatically
