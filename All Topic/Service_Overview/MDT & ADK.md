@@ -43,6 +43,23 @@ ADK is a set of tools required to create, customize, and deploy Windows images.
 
 - USMT (User State Migration Tool)
 
+⚠️ ADK does NOT deploy Windows by itself
+It only provides the tools that other solutions (MDT, SCCM, WDS) use.
+
+🔁 ADK Workflow (Real Deployment Flow)
+
+- PC boots into Windows PE
+
+- Disk is prepared
+
+- DISM applies Windows image
+
+- Windows setup runs using Unattend.xml
+
+- Optional: USMT restores user data
+
+- First boot into Windows
+
 I- maging & deployment tools
 
 👉 MDT cannot work without ADK
