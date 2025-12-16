@@ -27,3 +27,33 @@ MDT is a free Microsoft tool used by IT admins to deploy Windows operating syste
 4. Boot PC via PXE or USB
 
 5. Windows installs automatically
+
+
+🔹 What is Windows ADK?
+
+ADK = Windows Assessment and Deployment Kit
+
+ADK is a set of tools required to create, customize, and deploy Windows images.
+
+✅ What ADK provides
+
+- Windows PE (Preinstallation Environment)
+
+- DISM (image servicing)
+
+- USMT (User State Migration Tool)
+
+I- maging & deployment tools
+
+👉 MDT cannot work without ADK
+
+🧩 How MDT + ADK work together
+
+- ADK provides the core tools
+
+- MDT uses those tools to create a full deployment solution
+
+📌 Think like this:
+
+- ADK = Engine
+- MDT = Car body + steering
